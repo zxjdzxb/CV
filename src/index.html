@@ -36,7 +36,8 @@
       }
   </style>
   <style>
-      body {}
+      body {
+      }
 
       p {
           margin: .3em 0;
@@ -99,7 +100,8 @@
   </style>
 
   <style>
-      .projects {}
+      .projects {
+      }
 
       .projects p {
           color: #666;
@@ -109,63 +111,68 @@
           color: #f60;
       }
 
-      .projects>ol {
+      .projects > ol {
           margin-top: 0;
           list-style-position: inside;
           padding: 0;
       }
 
-      .projects>ol>li {
+      .projects > ol > li {
           margin-bottom: 24px;
       }
 
-      .projects>ol>li>header {
+      .projects > ol > li > header {
           display: flex;
           justify-content: space-between;
       }
 
-      .projects>ol>li h3 {
+      .projects > ol > li h3 {
           display: inline-block;
       }
   </style>
   <style>
       .skills {
-          display:none;
+          display: none;
       }
 
       @media print {
-          #skills{display:none;}
+          #skills {
+              display: none;
+          }
       }
 
 
-      .skills>.wrapper {
+      .skills > .wrapper {
           display: flex;
           justify-content: space-between;
       }
 
-      .skills>.wrapper>:first-child {
+      .skills > .wrapper > :first-child {
           margin-right: 24px;
       }
 
-      .skills>.wrapper>#skills {}
+      .skills > .wrapper > #skills {
+      }
 
-      .skills>.wrapper>ul {
+      .skills > .wrapper > ul {
           color: #666;
       }
 
-      .skills>.wrapper strong {
+      .skills > .wrapper strong {
           color: #f60;
       }
 
-      .skills>.wrapper>ul>li {
+      .skills > .wrapper > ul > li {
           line-height: 1.2;
           margin-bottom: 8px;
       }
   </style>
   <style>
-      .openSource {}
+      .openSource {
+      }
 
-      .openSource>h2 {}
+      .openSource > h2 {
+      }
 
       .openSource header img {
           position: absolute;
@@ -173,9 +180,10 @@
           right: 0;
       }
 
-      .openSource>ul {}
+      .openSource > ul {
+      }
 
-      .openSource>ul>li {
+      .openSource > ul > li {
           margin-bottom: 24px;
       }
 
@@ -184,14 +192,18 @@
           display: flex;
           justify-content: space-between;
       }
-      .openSource h3 {}
+
+      .openSource h3 {
+      }
   </style>
   <style>
-      .jobs>h2 {}
+      .jobs > h2 {
+      }
 
-      .jobs>ol {}
+      .jobs > ol {
+      }
 
-      .jobs>ol>li {
+      .jobs > ol > li {
           margin: 12px 0;
       }
 
@@ -201,22 +213,21 @@
           margin-bottom: 12px;
       }
 
-      .jobs header>h3 {
+      .jobs header > h3 {
           font-size: 18px;
           color: #333;
       }
 
-      .jobs header>h4 {
+      .jobs header > h4 {
           margin-left: 1em;
           font-size: 18px;
       }
 
-      .jobs header>span {
+      .jobs header > span {
           font-size: 18px;
           margin-left: auto;
       }
   </style>
-
 
 
   <style>
@@ -241,12 +252,14 @@
           #skills {
               width: auto;
           }
-          .jobs header{
+
+          .jobs header {
               flex-direction: column;
           }
-          .jobs header >h3,
-          .jobs header >h4,
-          .jobs header >span {
+
+          .jobs header > h3,
+          .jobs header > h4,
+          .jobs header > span {
               margin: 0;
           }
       }
@@ -257,7 +270,7 @@
 <article>
   <section class="bio">
     <h1>周兴杰</h1>
-    <img src="images/zz.jpg" alt="" width="100" >
+    <img src="images/zz.jpg" alt="" width="100">
     <p>
       男 | 23岁 | 前端开发工程师 | 北京
     </p>
@@ -292,7 +305,8 @@
           这款组件库其实是我为了总结自己学习成果而写的，尽量不采用第三方库，这个官网几乎都是我自己写的。
         </p>
         <p>
-          历史提交信息非常规范，可以按提交的顺序逐个查看，也可以直接查看每个组件的源代码和示例；制作过程让我对 TypeScript 和Vue有了新的认识。
+          历史提交信息非常规范，可以按提交的顺序逐个查看，也可以直接查看每个组件的源代码和示例；制作过程让我对 TypeScript
+          和Vue有了新的认识。
         </p>
 
         <p>我写了一篇博客《学习制作一个基于Vue3 + TS 的UI库》总结。</p>
@@ -316,7 +330,7 @@
           而且可以通过图表查看自己的消费习惯。
         </p>
         <p>
-            期间遇到很多<strong>webpack</strong>和<strong>TypeScript</strong>方面的问题，解决过程记录在本人的博客
+          期间遇到很多<strong>webpack</strong>和<strong>TypeScript</strong>方面的问题，解决过程记录在本人的博客
           《招财猫项目记账》
         </p>
       </li>
@@ -357,21 +371,19 @@
     </div>
   </section>
 
-
   <section class="openSource">
     <h2>开源项目</h2>
     <ul>
-      <li class="page2">
+      <li>
         <header>
           <h3>会动的可达鸭</h3>
           <span>
               <a href="https://github.com/zxjdzxb/pysduck">源码链接</a>
-              <a href="https://zxjdzxb.github.io/pysduck/src/index.html">项目预览</a>
+              <a href="https://zxjdzxb.gitee.io/kedaya/src/index.html">项目预览</a>
             </span>
         </header>
-        <p>这是我在学习 <strong>CSS3和动画</strong> 时制作的一个呆萌作品</p>
+        <p>实现了元素选择、元素创建、<strong>事件委托</strong>、滑动手势等常见功能</p>
       </li>
-      <li class="page2">
         <header>
           <h3>会动的代码</h3>
           <span>
@@ -379,8 +391,7 @@
               <a href="https://zxjdzxb.gitee.io/pysduck/test.html">项目预览</a>
             </span>
         </header>
-        <p>这是我在学习 <strong>CSS动画和JS</strong> 时利用会动的可达鸭制作的播放效果</p>
-      </li>
+        <p>这是我在学习 <strong>CSS3动画和JS</strong> 时制作的一个可爱作品</p>
       <li>
         <header>
           <h3>简易画板</h3>
@@ -395,13 +406,16 @@
   </section>
 
 
+
+
   <section class="others">
     <h2>其他链接</h2>
     <ul>
-      <li><a href="https://juejin.cn/user/4174167156993223/posts">我的博客</a>，目前已有 40 篇学习笔记</li>
+      <li><a href="https://juejin.cn/user/4174167156993223/posts">我的博客</a>，目前已有 42篇学习笔记</li>
       <li><a href="https://github.com/zxjdzxb">我的 GitHub</a>，过去三个月有 300 次提交</li>
     </ul>
   </section>
+
 
 </article>
 <script src="https://cdn.bootcss.com/echarts/4.6.0/echarts.min.js"></script>
