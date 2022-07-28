@@ -36,8 +36,7 @@
       }
   </style>
   <style>
-      body {
-      }
+      body {}
 
       p {
           margin: .3em 0;
@@ -100,8 +99,7 @@
   </style>
 
   <style>
-      .projects {
-      }
+      .projects {}
 
       .projects p {
           color: #666;
@@ -111,73 +109,63 @@
           color: #f60;
       }
 
-      .projects > ol {
+      .projects>ol {
           margin-top: 0;
           list-style-position: inside;
           padding: 0;
       }
 
-      .projects > ol > li {
+      .projects>ol>li {
           margin-bottom: 24px;
       }
 
-      .projects > ol > li > header {
+      .projects>ol>li>header {
           display: flex;
           justify-content: space-between;
       }
 
-      .projects > ol > li h3 {
+      .projects>ol>li h3 {
           display: inline-block;
       }
   </style>
   <style>
       .skills {
-      }
-
-      #skills {
-
-          width: 500px;
-          height: 270px;
+          display:none;
       }
 
       @media print {
-          #skills {
-              display: none;
-          }
+          #skills{display:none;}
       }
 
 
-      .skills > .wrapper {
+      .skills>.wrapper {
           display: flex;
           justify-content: space-between;
       }
 
-      .skills > .wrapper > :first-child {
+      .skills>.wrapper>:first-child {
           margin-right: 24px;
       }
 
-      .skills > .wrapper > #skills {
-      }
+      .skills>.wrapper>#skills {}
 
-      .skills > .wrapper > ul {
+      .skills>.wrapper>ul {
           color: #666;
       }
 
-      .skills > .wrapper strong {
+      .skills>.wrapper strong {
           color: #f60;
       }
 
-      .skills > .wrapper > ul > li {
+      .skills>.wrapper>ul>li {
           line-height: 1.2;
           margin-bottom: 8px;
       }
   </style>
   <style>
-      .openSource {
-      }
+      .openSource {}
 
-      .openSource > h2 {
-      }
+      .openSource>h2 {}
 
       .openSource header img {
           position: absolute;
@@ -185,10 +173,9 @@
           right: 0;
       }
 
-      .openSource > ul {
-      }
+      .openSource>ul {}
 
-      .openSource > ul > li {
+      .openSource>ul>li {
           margin-bottom: 24px;
       }
 
@@ -197,21 +184,14 @@
           display: flex;
           justify-content: space-between;
       }
-
-      .openSource h3 {
-      }
+      .openSource h3 {}
   </style>
   <style>
-      .jobs {
-      }
+      .jobs>h2 {}
 
-      .jobs > h2 {
-      }
+      .jobs>ol {}
 
-      .jobs > ol {
-      }
-
-      .jobs > ol > li {
+      .jobs>ol>li {
           margin: 12px 0;
       }
 
@@ -221,21 +201,22 @@
           margin-bottom: 12px;
       }
 
-      .jobs header > h3 {
+      .jobs header>h3 {
           font-size: 18px;
           color: #333;
       }
 
-      .jobs header > h4 {
+      .jobs header>h4 {
           margin-left: 1em;
           font-size: 18px;
       }
 
-      .jobs header > span {
+      .jobs header>span {
           font-size: 18px;
           margin-left: auto;
       }
   </style>
+
 
 
   <style>
@@ -260,14 +241,12 @@
           #skills {
               width: auto;
           }
-
-          .jobs header {
+          .jobs header{
               flex-direction: column;
           }
-
-          .jobs header > h3,
-          .jobs header > h4,
-          .jobs header > span {
+          .jobs header >h3,
+          .jobs header >h4,
+          .jobs header >span {
               margin: 0;
           }
       }
@@ -343,10 +322,10 @@
       </li>
       <li>
         <header>
-          <h3>旺财狗记账</h3>
+          <h3>富贵汪记账</h3>
           <span>
-              <a href="#">源码链接</a>
-              <a href="#">项目预览</a>
+              <a href="https://github.com/zxjdzxb/wealth-dog">源码链接</a>
+              <a href="https://zxjdzxb.gitee.io/wealth-dog-website">项目预览</a>
             </span>
         </header>
         <p>
@@ -363,12 +342,9 @@
       </li>
     </ol>
   </section>
-
-
   <section class="skills">
     <h2>技能</h2>
     <div class="wrapper">
-      <div id="skills"></div>
       <ul>
         <li>熟悉页面制作技巧，能将设计稿<strong>完美还原</strong></li>
         <li>熟悉<strong>前后端分离</strong>技术，包括 AJAX、跨域、前端路由、Cookie、Session 等</li>
@@ -400,7 +376,7 @@
           <h3>会动的代码</h3>
           <span>
               <a href="https://github.com/zxjdzxb/pysduck">源码链接</a>
-              <a href="https://gitee.com/zxjdzxb/pysduck/src/index.html">项目预览</a>
+              <a href="https://zxjdzxb.gitee.io/pysduck/test.html">项目预览</a>
             </span>
         </header>
         <p>这是我在学习 <strong>CSS动画和JS</strong> 时利用会动的可达鸭制作的播放效果</p>
@@ -410,7 +386,7 @@
           <h3>简易画板</h3>
           <span>
               <a href="https://github.com/zxjdzxb/canvas">源码链接</a>
-              <a href="https://zxjdzxb.gitee.io/pysduck/test.html">项目预览</a>
+              <a href="https://zxjdzxb.github.io/canvas/index.html">项目预览</a>
             </span>
         </header>
         <p>我在学习 <strong>Canvas</strong> 时做的一个小作品</p>
@@ -426,8 +402,6 @@
       <li><a href="https://github.com/zxjdzxb">我的 GitHub</a>，过去三个月有 300 次提交</li>
     </ul>
   </section>
-
-
 
 </article>
 <script src="https://cdn.bootcss.com/echarts/4.6.0/echarts.min.js"></script>
