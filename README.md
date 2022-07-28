@@ -1,4 +1,4 @@
-网页预览：http://fangyinghang.com/cv-2020/dist/index.html
+网页预览：https://zxjdzxb.github.io/CV/src/index.html
 
 ## 开发模式
 
