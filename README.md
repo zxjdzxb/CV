@@ -1,4 +1,4 @@
-网页预览：https://zxjdzxb.github.io/CV/src/index.html
+网页预览：https://zxjdzxb.github.io/CV/src/index
 
 ## 开发模式
 
